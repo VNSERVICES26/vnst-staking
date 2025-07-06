@@ -657,3 +657,16 @@ favicon-16x16.png
 favicon-32x32.png
 favicon.ico
 site.webmanifest  
+
+/* Approval Note Style */
+.approve-note {
+    margin-top: 10px;
+    font-size: 0.9em;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.7);
+}
+
+/* Hide Admin Panel by Default */
+#adminPanel, #ownerCard {
+    display: none;
+}
